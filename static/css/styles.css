@@ -1,0 +1,132 @@
+/* @font-face {
+    font-family: 'Apercu Light';
+    src: url('/fonts/Apercu\ Light.otf');
+}
+
+@font-face {
+    font-family: 'Apercu Regular';
+    src: url('/fonts/Apercu\ Regular.otf');
+}
+
+@font-face {
+    font-family: 'Apercu Bold';
+    src: url('/fonts/Apercu\ Bold.otf');
+} */
+
+:root {
+    --primary: #00feff;
+    --dark: #0c0c0d;
+}
+
+body {
+    padding-top: 1em;
+}
+
+
+h2 {
+    margin-bottom: 1em;
+    /* font-weight: bold; */
+    font-family: 'Apercu Bold';
+}
+
+a {
+    text-decoration: none;
+}
+
+header img {
+    border-radius: 50%;
+    display: block;
+    margin-inline: auto;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+#about a:hover {
+    text-decoration: underline;
+}
+
+#skills-filter-buttons {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: .5em;
+}
+
+#skill-items {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    justify-content: center;
+}
+
+#skill-items>div {
+    display: grid;
+    place-content: center;
+    width: 5rem;
+    height: 5rem;
+}
+
+.skill-item {
+    width: 4rem;
+    height: 4rem;
+    padding: .75em;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: width 200ms ease-out,
+        height 200ms ease-out;
+}
+
+.skill-item:hover {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.skill-item>img {
+    width: 100%;
+}
+
+.techs-used {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 3.5rem);
+    margin-bottom: 1em;
+}
+
+.techs-used>div {
+    display: grid;
+    align-content: center;
+    justify-content: start;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.tech-used {
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: width 200ms ease-out,
+        height 200ms ease-out;
+}
+
+.tech-used:hover {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.tech-used>img {
+    width: 100%;
+}
+
+#alert-success {
+    position: fixed;
+    top: 4.5rem;
+    right: 0;
+}
+
+@media (max-width: 992px) {
+    #skills-filter-buttons {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
