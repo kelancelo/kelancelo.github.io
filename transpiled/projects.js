@@ -30,7 +30,7 @@ function Projects() {
                 carouselImg: ['/static/images/projects/chatenger-pc.png', "/static/images/projects/chatenger-mobile.png"],
                 title: "Chatenger",
                 desc: "A simple private messaging app with features like online/offline status indicator and unread messages notification.",
-                techs: [{ img: '/static/images/skills/css3.svg', name: 'CSS3' }, { img: '/static/images/skills/express.svg', name: 'Express' }, { img: '/static/images/skills/nodejs.svg', name: 'Node.js' }, { img: '/static/images/skills/postgresql.svg', name: 'PostgreSQL' }, { img: '/static/images/skills/react.svg', name: 'React' }],
+                techs: [{ img: '/static/images/skills/express.svg', name: 'Express' }, { img: '/static/images/skills/nodejs.svg', name: 'Node.js' }, { img: '/static/images/skills/postgresql.svg', name: 'PostgreSQL' }, { img: '/static/images/skills/react.svg', name: 'React' }],
                 liveLink: "https://chatengerr.herokuapp.com",
                 codeLink: "https://github.com/kelancelo/chatenger"
             }),
@@ -38,7 +38,7 @@ function Projects() {
                 carouselImg: ['/static/images/projects/homepage.jpg', "/static/images/projects/main-page.png", "/static/images/projects/add-new-acc.png", "/static/images/projects/edit-acc.png", "/static/images/projects/delete-acc.png"],
                 title: "Axie Account Tracker",
                 desc: "A web app for tracking axie account's SLP earnings and leaderboard info.",
-                techs: [{ img: '/static/images/skills/css3.svg', name: 'CSS3' }, { img: '/static/images/skills/nextjs.svg', name: 'Next.js' }, { img: '/static/images/skills/postgresql.svg', name: 'PostgreSQL' }],
+                techs: [{ img: '/static/images/skills/nextjs.svg', name: 'Next.js' }, { img: '/static/images/skills/postgresql.svg', name: 'PostgreSQL' }],
                 liveLink: "https://axie-account-tracker.vercel.app",
                 codeLink: "https://github.com/kelancelo/axie-account-tracker"
             })
