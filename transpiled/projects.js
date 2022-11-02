@@ -11,6 +11,22 @@ function Projects() {
             "div",
             { className: "row g-4 text-dark" },
             React.createElement(Project, {
+                img: "/static/images/projects/network.png",
+                title: "Project: Network",
+                desc: "A Twitter-like social network website.",
+                techs: [{ img: '/static/images/skills/bootstrap.svg', name: 'Bootstrap' }, { img: '/static/images/skills/django.svg', name: 'Django' }, { img: '/static/images/skills/postgresql.svg', name: 'PostgreSQL' }, { img: '/static/images/skills/react.svg', name: 'React' }],
+                liveLink: "https://network-production-cb5a.up.railway.app/",
+                codeLink: "https://github.com/kelancelo/network"
+            }),
+            React.createElement(Project, {
+                img: "/static/images/projects/commerce.png",
+                title: "Project: Commerce",
+                desc: "An eBay-like e-commerce auction site.",
+                techs: [{ img: '/static/images/skills/bootstrap.svg', name: 'Bootstrap' }, { img: '/static/images/skills/django.svg', name: 'Django' }, { img: '/static/images/skills/postgresql.svg', name: 'PostgreSQL' }],
+                liveLink: "https://commerce-production.up.railway.app/",
+                codeLink: "https://github.com/kelancelo/commerce"
+            }),
+            React.createElement(Project, {
                 carouselImg: ['/static/images/projects/chatenger-pc.png', "/static/images/projects/chatenger-mobile.png"],
                 title: "Chatenger",
                 desc: "A simple private messaging app with features like online/offline status indicator and unread messages notification.",
@@ -19,29 +35,12 @@ function Projects() {
                 codeLink: "https://github.com/kelancelo/chatenger"
             }),
             React.createElement(Project, {
-                carouselImg: ['/static/images/projects/kelancelo-store.png', '/static/images/projects/kelancelo-store-category.png', '/static/images/projects/kelancelo-store-product.png', '/static/images/projects/kelancelo-store-cart.png', '/static/images/projects/kelancelo-store-checkout.png'],
-                title: "Kelancelo store",
-                desc: "An e-commerce site inspired by my favorite guitarist Synyster Gates. It uses paypal to process payments.",
-                techs: [{ img: '/static/images/skills/bootstrap.svg', name: 'Bootstrap' }, { img: '/static/images/skills/express.svg', name: 'Express' }, { img: '/static/images/skills/nodejs.svg', name: 'Node.js' }, { img: '/static/images/skills/postgresql.svg', name: 'PostgreSQL' }, { img: '/static/images/skills/react.svg', name: 'React' }],
-                liveLink: "https://kelancelostore.herokuapp.com",
-                codeLink: "https://github.com/kelancelo/kelancelo-store",
-                dark: true
-            }),
-            React.createElement(Project, {
                 carouselImg: ['/static/images/projects/homepage.jpg', "/static/images/projects/main-page.png", "/static/images/projects/add-new-acc.png", "/static/images/projects/edit-acc.png", "/static/images/projects/delete-acc.png"],
                 title: "Axie Account Tracker",
                 desc: "A web app for tracking axie account's SLP earnings and leaderboard info.",
                 techs: [{ img: '/static/images/skills/css3.svg', name: 'CSS3' }, { img: '/static/images/skills/nextjs.svg', name: 'Next.js' }, { img: '/static/images/skills/postgresql.svg', name: 'PostgreSQL' }],
                 liveLink: "https://axie-account-tracker.vercel.app",
                 codeLink: "https://github.com/kelancelo/axie-account-tracker"
-            }),
-            React.createElement(Project, {
-                img: "/static/images/projects/facebook-ui-clone.png",
-                title: "Facebook home page UI clone",
-                desc: "I decided to do this project to practice and improve my skills in CSS and React.\r I wrote this from scratch.",
-                techs: [{ img: '/static/images/skills/css3.svg', name: 'CSS3' }, { img: '/static/images/skills/react.svg', name: 'React' }],
-                liveLink: "https://fb-ui-clone.vercel.app",
-                codeLink: "https://github.com/kelancelo/facebook-homepage-ui-clone"
             })
         )
     );

@@ -4,6 +4,31 @@ function Projects() {
             <h1 className="my-4 fs-3 fw-bold">Projects</h1>
             <div className="row g-4 text-dark">
                 <Project
+                    img='/static/images/projects/network.png'
+                    title='Project: Network'
+                    desc="A Twitter-like social network website."
+                    techs={[
+                        { img: '/static/images/skills/bootstrap.svg', name: 'Bootstrap' },
+                        { img: '/static/images/skills/django.svg', name: 'Django' },
+                        { img: '/static/images/skills/postgresql.svg', name: 'PostgreSQL' },
+                        { img: '/static/images/skills/react.svg', name: 'React' }
+                    ]}
+                    liveLink='https://network-production-cb5a.up.railway.app/'
+                    codeLink='https://github.com/kelancelo/network'
+                />
+                <Project
+                    img='/static/images/projects/commerce.png'
+                    title='Project: Commerce'
+                    desc="An eBay-like e-commerce auction site."
+                    techs={[
+                        { img: '/static/images/skills/bootstrap.svg', name: 'Bootstrap' },
+                        { img: '/static/images/skills/django.svg', name: 'Django' },
+                        { img: '/static/images/skills/postgresql.svg', name: 'PostgreSQL' }
+                    ]}
+                    liveLink='https://commerce-production.up.railway.app/'
+                    codeLink='https://github.com/kelancelo/commerce'
+                />
+                <Project
                     carouselImg={[
                         '/static/images/projects/chatenger-pc.png',
                         "/static/images/projects/chatenger-mobile.png"
@@ -21,6 +46,24 @@ function Projects() {
                     codeLink='https://github.com/kelancelo/chatenger'
                 />
                 <Project
+                    carouselImg={[
+                        '/static/images/projects/homepage.jpg',
+                        "/static/images/projects/main-page.png",
+                        "/static/images/projects/add-new-acc.png",
+                        "/static/images/projects/edit-acc.png",
+                        "/static/images/projects/delete-acc.png"
+                    ]}
+                    title='Axie Account Tracker'
+                    desc="A web app for tracking axie account's SLP earnings and leaderboard info."
+                    techs={[
+                        { img: '/static/images/skills/css3.svg', name: 'CSS3' },
+                        { img: '/static/images/skills/nextjs.svg', name: 'Next.js' },
+                        { img: '/static/images/skills/postgresql.svg', name: 'PostgreSQL' },
+                    ]}
+                    liveLink='https://axie-account-tracker.vercel.app'
+                    codeLink='https://github.com/kelancelo/axie-account-tracker'
+                />
+                {/* <Project
                     carouselImg={[
                         '/static/images/projects/kelancelo-store.png',
                         '/static/images/projects/kelancelo-store-category.png',
@@ -44,24 +87,6 @@ function Projects() {
                     dark={true}
                 />
                 <Project
-                    carouselImg={[
-                        '/static/images/projects/homepage.jpg',
-                        "/static/images/projects/main-page.png",
-                        "/static/images/projects/add-new-acc.png",
-                        "/static/images/projects/edit-acc.png",
-                        "/static/images/projects/delete-acc.png"
-                    ]}
-                    title='Axie Account Tracker'
-                    desc="A web app for tracking axie account's SLP earnings and leaderboard info."
-                    techs={[
-                        { img: '/static/images/skills/css3.svg', name: 'CSS3' },
-                        { img: '/static/images/skills/nextjs.svg', name: 'Next.js' },
-                        { img: '/static/images/skills/postgresql.svg', name: 'PostgreSQL' },
-                    ]}
-                    liveLink='https://axie-account-tracker.vercel.app'
-                    codeLink='https://github.com/kelancelo/axie-account-tracker'
-                />
-                <Project
                     img='/static/images/projects/facebook-ui-clone.png'
                     title='Facebook home page UI clone'
                     desc="I decided to do this project to practice and improve my skills in CSS and React.
@@ -72,7 +97,7 @@ function Projects() {
                     ]}
                     liveLink='https://fb-ui-clone.vercel.app'
                     codeLink='https://github.com/kelancelo/facebook-homepage-ui-clone'
-                />
+                /> */}
             </div>
         </React.Fragment>
     )
@@ -85,8 +110,8 @@ function Project({ img, carouselImg, title, desc, liveLink, codeLink, techs, dar
             <div className="card" style={{ border: 'none' }}>
                 <div className="row g-0">
                     <div className="col-md-6 p-md-3">
-                        <div 
-                            id={title.replaceAll(' ', '')} 
+                        <div
+                            id={title.replaceAll(' ', '')}
                             className={'carousel slide' + (dark ? ' carousel-dark' : '')}
                         >
                             <div className="carousel-inner">
@@ -114,9 +139,9 @@ function Project({ img, carouselImg, title, desc, liveLink, codeLink, techs, dar
                                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span className="visually-hidden">Next</span>
                             </button>
-                        </div>                    
+                        </div>
                     </div>
-                
+
                     <div className="col-md-6">
                         <div className="card-body">
                             <h5 className="card-title">{title}</h5>
@@ -153,7 +178,7 @@ function Project({ img, carouselImg, title, desc, liveLink, codeLink, techs, dar
             <div className="card" style={{ border: 'none' }}>
                 <div className="row g-0">
                     <div className="col-md-6 p-md-3">
-                        <img src={img} alt="" className="w-100"/>
+                        <img src={img} alt="" className="w-100" />
                     </div>
 
                     <div className="col-md-6">
