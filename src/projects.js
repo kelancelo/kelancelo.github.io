@@ -13,7 +13,7 @@ function Projects() {
                         { img: '/static/images/skills/postgresql.svg', name: 'PostgreSQL' },
                         { img: '/static/images/skills/react.svg', name: 'React' }
                     ]}
-                    liveLink='https://network-production-cb5a.up.railway.app/'
+                    liveLink='https://network-production-e8fb.up.railway.app/'
                     codeLink='https://github.com/kelancelo/network'
                 />
                 <Project
