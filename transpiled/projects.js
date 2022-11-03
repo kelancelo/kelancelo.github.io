@@ -15,7 +15,7 @@ function Projects() {
                 title: "Project: Network",
                 desc: "A Twitter-like social network website.",
                 techs: [{ img: '/static/images/skills/bootstrap.svg', name: 'Bootstrap' }, { img: '/static/images/skills/django.svg', name: 'Django' }, { img: '/static/images/skills/postgresql.svg', name: 'PostgreSQL' }, { img: '/static/images/skills/react.svg', name: 'React' }],
-                liveLink: "https://network-production-cb5a.up.railway.app/",
+                liveLink: "https://network-production-e8fb.up.railway.app/",
                 codeLink: "https://github.com/kelancelo/network"
             }),
             React.createElement(Project, {
