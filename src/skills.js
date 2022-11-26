@@ -1,7 +1,7 @@
 function Skills() {
     const skills = [
         { img: '/static/images/skills/bootstrap.svg', name: 'Bootstrap', type: 'client-side' },
-        { img: '/static/images/skills/c.svg', name: 'C', type: 'language' },
+        // { img: '/static/images/skills/c.svg', name: 'C', type: 'language' },
         { img: '/static/images/skills/css3.svg', name: 'CSS3', type: 'client-side' },
         { img: '/static/images/skills/django.svg', name: 'Django', type: 'server-side' },
         { img: '/static/images/skills/express.svg', name: 'Express', type: 'server-side' },
