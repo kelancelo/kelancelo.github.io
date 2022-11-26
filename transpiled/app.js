@@ -37,7 +37,7 @@ function App() {
             React.createElement("img", { src: "/static/images/resume-pic.jpg", className: "mb-3", width: "120", alt: "" }),
             React.createElement(
                 "h1",
-                { className: "mb-4 fs-2 fw-bold text-center text-light" },
+                { className: "mb-3 fs-2 fw-bold text-center text-light" },
                 "Miguel Angelo Delos Reyes"
             ),
             React.createElement(

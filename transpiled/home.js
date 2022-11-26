@@ -16,7 +16,7 @@ export default function Home() {
             React.createElement(
                 "p",
                 null,
-                "I'm Miguel, an aspiring Software Developer. I graduated from",
+                "I'm Miguel, an aspiring programmer. I graduated from",
                 React.createElement(
                     "a",
                     { href: "https://cdd.edu.ph/", target: "_blank" },
@@ -29,12 +29,12 @@ export default function Home() {
             React.createElement(
                 "p",
                 null,
-                "Even though I have a degree in Information Technology, I never really focused in programming or anything related to programming while I was still in college. I sort of focused on the wrong things that's why my past jobs didn't involve programming."
+                "Even though I have a degree in Information Technology, I never really focused in programming because I thought it was very hard and that's why my past jobs didn't involve programming."
             ),
             React.createElement(
                 "p",
                 null,
-                "But one night, I watched this certain anime which inspired me to re-learn programming because I was just amazed on what things you can do with it. After finishing that anime, I immediately started my learning journey and I have been enjoying it until now."
+                "But in early 2022, I decided to become a programmer because I was inspired by a show I watched so I immediately started re-learning programming, learning new things about it and practicing those knowledge by building projects."
             ),
             React.createElement(
                 "p",

@@ -37,7 +37,7 @@ function App() {
         <React.Fragment>
             <header className="mb-4">
                 <img src="/static/images/resume-pic.jpg" className="mb-3" width="120" alt="" />
-                <h1 className="mb-4 fs-2 fw-bold text-center text-light">Miguel Angelo Delos Reyes</h1>
+                <h1 className="mb-3 fs-2 fw-bold text-center text-light">Miguel Angelo Delos Reyes</h1>
                 <nav className="nav justify-content-center">
                     <a className="nav-link" onClick={(e) => {
                         e.preventDefault();
